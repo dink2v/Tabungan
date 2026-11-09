@@ -16,7 +16,6 @@
  <div class="brand"><div class="brand-mark">↗</div> ProjectHub</div>
  <div><div class="nav-label">WORKSPACE</div><nav class="nav">
   <button data-view="overview" class="active"><span class="ico">▦</span>Dashboard</button>
-  <button data-view="main-savings"><span class="ico">◈</span>Tabungan</button>
   <button data-view="targets"><span class="ico">◎</span>Target Tabungan</button>
  </nav></div>
  <div class="side-note">Data disimpan di browser perangkat ini. Gunakan ekspor cadangan secara berkala.</div>
@@ -46,7 +45,7 @@
  <section class="view" id="view-stats"><div class="section-head"><div><h2>Statistik tabungan</h2><p class="sub">Pantau total pemasukan, pengeluaran, dan perkembangan target.</p></div></div><div class="grid stats"><div class="stat"><div class="stat-top">Total pemasukan</div><div class="stat-value" id="stats-income">Rp0</div></div><div class="stat"><div class="stat-top">Total pengeluaran</div><div class="stat-value" id="stats-expense">Rp0</div></div><div class="stat"><div class="stat-top">Jumlah transaksi</div><div class="stat-value" id="stats-count">0</div></div><div class="stat"><div class="stat-top">Rata-rata progres</div><div class="stat-value" id="stats-progress">0%</div></div></div><div class="panel"><div class="panel-head"><div><h2>Progres setiap target</h2></div></div><div id="stats-targets"></div></div></section>
 </main>
 </div>
-<nav class="mobile-nav"><button data-view="overview" class="active"><span>▦</span>Dashboard</button><button data-view="main-savings"><span>◈</span>Tabungan</button><button data-view="targets"><span>◎</span>Target</button></nav>
+<nav class="mobile-nav"><button data-view="overview" class="active"><span>▦</span>Dashboard</button><button data-view="targets"><span>◎</span>Target</button></nav>
 <div class="modal-back" id="modal-back"><div class="modal"><div class="modal-head"><h2 id="modal-title">Tambah</h2><button class="close" id="modal-close">✕</button></div><form id="modal-form"><div id="modal-fields"></div><div class="form-actions"><button type="button" class="btn" id="modal-cancel">Batal</button><button class="btn primary" type="submit">Simpan</button></div></form></div></div>
 <div id="pin-lock" style="display:none;position:fixed;inset:0;background:#172033ed;z-index:20;align-items:center;justify-content:center;padding:18px"><div style="background:#fff;border-radius:18px;padding:25px;width:min(350px,100%);text-align:center"><div class="brand-mark" style="margin:0 auto 12px">↗</div><h2 id="pin-heading" style="margin:0 0 6px">Buat PIN</h2><p id="pin-description" class="muted" style="font-size:12px">PIN untuk melindungi tabungan di perangkat ini.</p><input id="pin-value" type="password" inputmode="numeric" maxlength="6" placeholder="4–6 angka" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;text-align:center;font-size:20px;letter-spacing:5px;margin:10px 0"><button id="pin-action" class="btn primary" style="width:100%">Lanjutkan</button><p class="muted" style="font-size:10px;margin:12px 0 0">PIN disimpan dalam bentuk hash di browser perangkat ini.</p></div></div>
 <div class="toast" id="toast"></div>
