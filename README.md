@@ -18,7 +18,7 @@ Aplikasi tabungan pribadi berbasis web, responsif untuk desktop dan ponsel. Dibu
 ## Menjalankan dengan GitHub Pages
 1. Buka repository **Settings → Pages**.
 2. Pada **Build and deployment**, pilih **GitHub Actions**.
-3. Workflow `.github/workflows/pages.yml` akan menerbitkan file statis dari root repository setiap ada push ke branch `main`.
+3. Workflow `.github/workflows/static.yml` akan menerbitkan file statis dari root repository setiap ada push ke branch `main`.
 4. Setelah deployment berhasil, buka alamat Pages yang ditampilkan di halaman **Settings → Pages**.
 
 ## Penyimpanan dan keamanan saat ini
